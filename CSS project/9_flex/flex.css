@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    height: 600px;
+    border: 2px solid red;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container> .box{
+    height: 60px;
+    width: 60px;
+    border: 1.5px solid blue;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    border: 2.5px solid brown;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outer> .inner{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+}

@@ -1,0 +1,23 @@
+
+
+#container1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid burlywood;
+}
+
+#container2{
+    height: 300px;
+    width: 300px;
+    border: 3px solid salmon;
+}
+
+#container1 p{
+    color: blueviolet;
+}  /*! descendant selector */
+
+
+
+#container2>p{
+    color: blue;
+}  /*  !direct child selector */ 

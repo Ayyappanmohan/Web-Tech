@@ -1,0 +1,26 @@
+
+
+/* ! 1. tagname selector*/
+/*p{
+    color: crimson;
+}*/
+
+/*!2. id Selector*/
+/*#p1{
+    color: darkblue;
+}*/
+
+/* ! 3. class selectors*/
+/*.para{
+    color: cyan;
+}*/
+
+/*!4.Universal selectors*/
+/* *{
+    color: aquamarine;
+}*/
+
+/*! group selectors*/
+/*h1,#p1,li{
+    color: chartreuse;
+}*/

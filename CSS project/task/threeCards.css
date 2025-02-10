@@ -1,0 +1,21 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+
+.outer> .card{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+}

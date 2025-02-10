@@ -1,0 +1,42 @@
+
+
+header>h1{
+color: blue;
+}
+
+header>p::first-letter{
+    color: rgb(236, 127, 255);
+}
+
+header>p::first-line{
+    background-color: blueviolet;
+}
+
+header>h1::before{
+    content: "*";
+    color: brown;
+}
+
+header>h1::after{
+    content:"!";
+    color: brown;
+}
+
+
+input[type="text"]{
+    background-color: cadetblue;
+    color: azure;
+}
+
+button{
+    background-color: darkblue;
+    color: white;
+}
+
+/* button:hover{
+    background-color: red;
+    color: white;
+} 
+
+button:active{
+    background-color: gray; */

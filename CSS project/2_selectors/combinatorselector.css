@@ -1,0 +1,24 @@
+
+
+#container1{
+    height: 200px;
+    width: 200px;
+    border: 2px  solid green;
+}
+#container2{
+    height: 300px;
+    width: 300px;
+    border: 3px  solid rgb(126, 128, 0);
+
+}
+/* ! descendant selector*/
+
+#container1 p{
+color: blue;
+}
+
+/* ! direct child selector*/
+
+#container2 > p{
+    color: rgb(0, 217, 255);
+    }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website using flex</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .nav{
+            height: 70px;
+            background-color: blanchedalmond;
+            color: gray;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 30px;
+        }
+
+        .nav>ul{
+            display: flex;
+        }
+
+        .nav > ul> li{
+            list-style: none;
+            margin-left: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .nav>ul>li:hover{
+            color:black;
+            text-decoration: underline;
+            text-decoration-color: #666;
+        }
+
+        .section{
+            height: 250px;
+            background-color: goldenrod;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .section>h1{
+            text-transform: capitalize;
+            letter-spacing: 3px;
+            text-shadow: 3px 4px 5px red;
+        }
+
+        .section>p{
+            font-size: 25px;
+            font-style: italic;
+            color: blue;
+        }
+
+        .section>button{
+            padding: 20px 35px;
+            border-radius: 20px;
+            font-weight: bold;
+            background-color: cadetblue;
+            border: 2px solid #ccc;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+
+        .section>button:hover{
+            background-color: rgb(146, 184, 185);
+            text-decoration: underline 3px black;
+        }
+
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .main>.card{
+            height: 300px;
+            width: 300px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="nav">
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+
+    </div>
+    <div class="section">
+
+        <h1>welcome to my website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sequi debitis repellat iste minima enim quas, expedita consequuntur magnam inventore quaerat velit beatae. Laudantium odio esse voluptatum nisi ea. Vel.</p>
+        <button>get started</button>
+    
+    </div>
+    <div class="main">
+
+        <div class="card">
+
+
+        </div>
+        <div class="card">
+
+
+        </div>
+        <div class="card">
+
+
+        </div>
+
+
+    </div>
+</body>
+</html>

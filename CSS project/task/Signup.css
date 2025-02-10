@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.inner{
+    width: 440px;
+    background-color: whitesmoke;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+}
+
+.outer > .inner > h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.outer > .inner > #p1{
+    font-size: 20px;
+    font-style: oblique;
+    color: #666;
+    margin-bottom: 7px;
+}
+
+.inner > form > label{
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.inner > form > input{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #ccc;
+    margin-bottom: 7px;
+}
+
+.inner > form > button{
+    width: 100%;
+    padding: 13px;
+    border-radius: 13px;
+    border: 2px solid#ccc;
+    font-size: 23px;
+    background-color: #0866ff;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 12px;
+
+}
+
+.inner > form >button:hover{
+    background-color: #084bb6;
+}
+
+.footer >p{
+    display: inline;
+}
+
+.footer > p:nth-child(1){
+color: #666;
+font-size: 15px;
+margin-right: 10px;
+}
+
+.footer > p:nth-child(2){
+    color: #0866ff;
+    cursor: pointer;
+} 
+
+.footer > p:nth-child(2):hover
+{
+    color: #084bb6;
+    text-decoration: underline;
+}
